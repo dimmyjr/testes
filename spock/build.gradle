@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    // mandatory dependencies for using Spock
+    compile "org.codehaus.groovy:groovy-all:2.5.8"
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.hamcrest:hamcrest:2.2'
+    testCompile 'org.spockframework.spock:spock-core:spock-1.3'
+}
