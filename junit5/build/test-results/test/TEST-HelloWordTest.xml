@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HelloWordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-18T05:15:41" hostname="Dimmys-MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="testSingleSuccessTest()" classname="HelloWordTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 18, 2020 2:15:41 AM HelloWordTest setup
+INFO: @BeforeAll - executes once before all test methods in this class
+May 18, 2020 2:15:41 AM HelloWordTest init
+INFO: @BeforeEach - executes before each test method in this class
+May 18, 2020 2:15:41 AM HelloWordTest tearDown
+INFO: @AfterEach - executed after each test method.
+May 18, 2020 2:15:41 AM HelloWordTest done
+INFO: @AfterAll - executed after all test methods.
+]]></system-err>
+</testsuite>

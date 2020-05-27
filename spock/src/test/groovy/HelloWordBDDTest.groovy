@@ -11,24 +11,34 @@ I want to say hello to everyone that run this application
 @Title("Say hello to everybody")
 class HelloWordBDDTest extends Specification {
 
-    def "Say Hello for everybody"() {
+    def "Say Hello to everybody"() {
         String result;
         given: 'New instance of application'
         HelloWord helloWord = new HelloWord();
         when: 'I dont enter any name'
         result = helloWord.say();
-        then: 'Say Hello for everybody'
+        then: 'Say Hello to everybody'
         result equalTo("hello");
     }
 
-    def "Say Hello for everyone"() {
+    def "Say Hello to everyone"() {
         String result;
         given: 'New instance of application'
         HelloWord helloWord = new HelloWord();
         when: 'I enter some name'
         result = helloWord.say("Gomes Bolanos");
-        then: 'Say Hello for Gomes Bolanos'
+        then: 'Say Hello to Gomes Bolanos'
         result equalTo("hello Gomes Bolanos");
+    }
+
+    def "Say Hello to everyone with error"() {
+        String result;
+        given: 'New instance of application'
+        HelloWord helloWord = new HelloWord();
+        when: 'I enter some name'
+        result = helloWord.say("Gomes Bolanos");
+        then: 'Say Hello to Gomes Bolanos'
+        result equalTo("hello");
     }
 
     def "Say hello to each of them"(String name, String result) {

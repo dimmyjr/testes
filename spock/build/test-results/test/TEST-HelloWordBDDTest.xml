@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HelloWordBDDTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2020-05-17T05:26:28" hostname="Dimmys-MacBook-Pro.local" time="0.14">
+  <properties/>
+  <testcase name="Say Hello to everybody" classname="HelloWordBDDTest" time="0.039"/>
+  <testcase name="Say Hello to everyone" classname="HelloWordBDDTest" time="0.001"/>
+  <testcase name="Say Hello to everyone with error" classname="HelloWordBDDTest" time="0.097">
+    <failure message="Condition not satisfied:&#10;&#10;result equalTo(&quot;hello&quot;)&#10;|      |&#10;|      false&#10;hello Gomes Bolanos&#10;&#10;Expected: &quot;hello&quot;&#10;     but: was &quot;hello Gomes Bolanos&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+result equalTo(&quot;hello&quot;)
+|      |
+|      false
+hello Gomes Bolanos
+
+Expected: &quot;hello&quot;
+     but: was &quot;hello Gomes Bolanos&quot;
+
+	at HelloWordBDDTest.Say Hello to everyone with error(HelloWordBDDTest.groovy:41)
+</failure>
+  </testcase>
+  <testcase name="Say hello to each of them" classname="HelloWordBDDTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.athaydes.spockframework.report.internal.ConfigLoader - SpockReports config loaded: {com.athaydes.spockframework.report.showCodeBlocks=false, com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=md, com.athaydes.spockframework.report.testSourceRoots=src/test/groovy, com.athaydes.spockframework.report.IReportCreator=com.athaydes.spockframework.report.internal.HtmlReportCreator, com.athaydes.spockframework.report.outputDir=build/spock-reports, com.athaydes.spockframework.report.internal.HtmlReportCreator.inlineCss=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.featureReportCss=spock-feature-report.css, com.athaydes.spockframework.report.hideEmptyBlocks=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.summaryReportCss=spock-summary-report.css, com.athaydes.spockframework.report.projectVersion=Unknown, com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/templateReportCreator/spec-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/templateReportCreator/summary-template.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.excludeToc=false, com.athaydes.spockframework.report.template.TemplateReportCreator.enabled=true, com.athaydes.spockframework.report.projectName=, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName=summary.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.printThrowableStackTrace=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.enabled=true}
+]]></system-err>
+</testsuite>

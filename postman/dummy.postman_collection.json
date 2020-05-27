@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "da68cbf5-20b9-42e9-b2c6-db75a9f518c2",
+		"name": "dummy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "employees",
+			"item": [
+				{
+					"name": "lista of employees",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e4864940-ab58-4e7c-876f-177b79b705a0",
+								"exec": [
+									"pm.test(\"Status code name has string\", function () {",
+									"    pm.response.to.have.status(\"OK\");    ",
+									"    pm.expect(pm.response.json().data).to.have.lengthOf(24);",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://dummy.restapiexample.com/api/v1/employees",
+							"protocol": "http",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Employee",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "361aac85-8b2b-4b21-9394-4d0e6d61ae60",
+								"exec": [
+									"pm.test(\"Status code name has string\", function () {",
+									"    pm.response.to.have.status(\"OK\");    ",
+									"    pm.expect(pm.response.json().status).to.eql(\"success\");",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Gomes Bolanos\",\n    \"salary\": \"10000\",\n    \"age\": \"65\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://dummy.restapiexample.com/api/v1/create",
+							"protocol": "http",
+							"host": [
+								"dummy",
+								"restapiexample",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
