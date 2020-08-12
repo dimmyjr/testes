@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caaceb1e-e618-4ee3-b719-f8b12f7a236a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hamcrest/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/src/main/java/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/src/main/java/HelloWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spock/src/test/groovy/HelloWordBDDTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../spock/src/test/groovy/HelloWordBDDTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +52,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -79,6 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -88,7 +83,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.CustomerRepositoryTests">
+  <component name="RunManager" selected="Application.teste">
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.accessingdatajpa.teste" />
+      <module name="testcontainers.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.accessingdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerRepositoryTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste" />
         <item itemvalue="Gradle.CustomerRepositoryTests" />
         <item itemvalue="Gradle.CustomerRepositoryTests.testFindByLastName" />
       </list>
@@ -152,7 +161,10 @@
       <option name="presentableId" value="Default" />
       <updated>1590453889799</updated>
       <workItem from="1590453893648" duration="3744000" />
-      <workItem from="1590457699422" duration="1633000" />
+      <workItem from="1590457699422" duration="1636000" />
+      <workItem from="1591417029481" duration="417000" />
+      <workItem from="1594536590429" duration="21000" />
+      <workItem from="1596243909898" duration="1175000" />
     </task>
     <servers />
   </component>
@@ -172,25 +184,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="199" key="#Plugins" timestamp="1591417237693">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="560" y="199" key="#Plugins/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1591417237693" />
     <state x="773" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1590460921893">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="773" y="265" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1590460921893" />
-    <state width="1878" height="338" key="GridCell.Tab.0.bottom" timestamp="1590457818789">
+    <state width="1878" height="338" key="GridCell.Tab.0.bottom" timestamp="1596245705757">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1590457818789" />
-    <state width="1878" height="338" key="GridCell.Tab.0.center" timestamp="1590457818789">
+    <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1591052036215" />
+    <state width="1878" height="338" key="GridCell.Tab.0.bottom/3840.23.1920.1057/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1596245705757" />
+    <state width="1878" height="338" key="GridCell.Tab.0.center" timestamp="1596245705756">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1590457818789" />
-    <state width="1878" height="338" key="GridCell.Tab.0.left" timestamp="1590457818788">
+    <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1591052036213" />
+    <state width="1878" height="338" key="GridCell.Tab.0.center/3840.23.1920.1057/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1596245705756" />
+    <state width="1878" height="338" key="GridCell.Tab.0.left" timestamp="1596245705756">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1590457818788" />
-    <state width="1878" height="338" key="GridCell.Tab.0.right" timestamp="1590457818789">
+    <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1591052036212" />
+    <state width="1878" height="338" key="GridCell.Tab.0.left/3840.23.1920.1057/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1596245705756" />
+    <state width="1878" height="338" key="GridCell.Tab.0.right" timestamp="1596245705757">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1590457818789" />
+    <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1591052036214" />
+    <state width="1878" height="338" key="GridCell.Tab.0.right/3840.23.1920.1057/0.23.1920.1057/-1680.23.1680.1027/1920.23.1920.1057@0.23.1920.1057" timestamp="1596245705757" />
   </component>
 </project>
